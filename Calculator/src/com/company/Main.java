@@ -1,6 +1,5 @@
 package com.company;
 
-import javax.sound.midi.Soundbank;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -8,6 +7,8 @@ public class Main {
 
     public static boolean isActive = true;
     static int select = 0;
+
+    static Scanner scan = new Scanner(System.in);
 
 
 
@@ -30,7 +31,7 @@ public class Main {
         System.out.println("4. Calculate the sum");
         System.out.println("5. Exit");
 
-        Scanner scan = new Scanner(System.in);
+
 
         select = scan.nextInt();
 
@@ -38,7 +39,6 @@ public class Main {
 
             case 1:
                 System.out.println("not implemented yet");
-                showMenu();
                 break;
             case 2:
                 System.out.println("not implemented yet");
@@ -48,7 +48,6 @@ public class Main {
                 System.out.println(fac.description);
                 fac.setN(scan.nextInt());
                 fac.doWork();
-                showMenu();
                 break;
             case 4:
                 Sum sum = new Sum();
@@ -56,7 +55,6 @@ public class Main {
                 sum.setA(scan.nextInt());
                 sum.setB(scan.nextInt());
                 sum.doWork();
-                showMenu();
                 break;
             default:
                 System.out.println("Exit");

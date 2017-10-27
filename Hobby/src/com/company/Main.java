@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,6 +25,15 @@ public class Main {
             System.out.println("exception 2 caught "+"\n"+ e.getMessage());
         }
 
+        List<Runnable> a = null;
+        List<Runnable> b = sort(a);
+
+    }
+
+
+    private static <T extends Runnable> List<T> sort(List<T> list) {
+        list.get(0).run();
+        return list;
     }
 
 }
