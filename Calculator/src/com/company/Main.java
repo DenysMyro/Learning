@@ -15,25 +15,23 @@ public class Main {
     public static void main(String[] args) {
 
 	    while (isActive) {
-	       try {
-               showMenu();
-           } catch (InputMismatchException e ) {
-               System.out.println("Wrong input. Type only digits");
-           }
+        try {
+            showMenu();
+        } catch (NumberFormatException e) {
+            System.out.println("Wrong input. Type only digits");
+            }
         }
     }
     public static void showMenu () {
         System.out.println();
-        System.out.println("Welcome to calculate program! Select action by taping action number");
+        System.out.println("Welcome to calculator program! Select action by taping action number");
         System.out.println("1. Calculate quadratic equation ");
         System.out.println("2. Calculate Sum of diagonal of the matrix ");
         System.out.println("3. Calculate factorial");
         System.out.println("4. Calculate the sum");
         System.out.println("5. Exit");
 
-
-
-        select = scan.nextInt();
+        select = Integer.parseInt(scan.next());
 
         switch (select) {
 
@@ -41,26 +39,24 @@ public class Main {
                 System.out.println("not implemented yet");
                 break;
             case 2:
-                System.out.println("not implemented yet");
+                Matrix mm = new Matrix();
+                mm.description();
+                mm.doWork();
                 break;
             case 3:
                 Factorial fac = new Factorial();
-                System.out.println(fac.description);
-                fac.setN(scan.nextInt());
+                fac.description();
                 fac.doWork();
                 break;
             case 4:
                 Sum sum = new Sum();
-                System.out.println(sum.description);
-                sum.setA(scan.nextInt());
-                sum.setB(scan.nextInt());
+                sum.description();
                 sum.doWork();
                 break;
             default:
                 System.out.println("Exit");
                 isActive = false;
                 break;
-
         }
     }
 }
