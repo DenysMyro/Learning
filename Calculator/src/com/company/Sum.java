@@ -28,9 +28,9 @@ public class Sum implements Action {
 
     public void description() {
         System.out.println(description);
+        String a = scan.next();
+        String b = scan.next();
         while (true) {
-            String a = scan.next();
-            String b = scan.nextLine();
             try {
                 setA(Integer.parseInt(a));
                 setB(Integer.parseInt(b));
