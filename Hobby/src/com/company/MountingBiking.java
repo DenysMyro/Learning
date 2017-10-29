@@ -36,7 +36,15 @@ public class MountingBiking extends Hobby {
     }
 
     //method to call exception
-    public void doCrazyJump () throws BrokenKneeException {
-        throw new BrokenKneeException();
+    public void doCrazyJumpOnSpeed (int speed) throws BrokenKneeException, LowSpeedException {
+
+        if (speed>20) {
+            throw new BrokenKneeException(speed);
+        } else {
+            if(speed<15){
+            throw new LowSpeedException(speed);
+        } else
+            System.out.println("you did a nice jump!");
+        }
     }
 }
