@@ -6,8 +6,6 @@ import java.util.Scanner;
 
 public class Sum implements Action {
 
-    /**Known issue - with wrong input for doWork, main menu is shown instead of description*/
-
     private final int ACTIONNUMBER = 4;
 
     int a, b;
@@ -45,7 +43,7 @@ public class Sum implements Action {
                 a = Integer.parseInt(scan.next());
                 b = Integer.parseInt(scan.next());
                 break;
-            } catch (InputMismatchException e ) {
+            } catch (NumberFormatException e ) {
                 System.out.println("Wrong input");
             }
         }
