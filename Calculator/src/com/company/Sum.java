@@ -1,9 +1,12 @@
 package com.company;
 
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Sum implements Action {
+
+    /**Known issue - with wrong input for doWork, main menu is shown instead of description*/
 
     private final int ACTIONNUMBER = 4;
 
@@ -39,8 +42,8 @@ public class Sum implements Action {
     public void doWork () {
         while (true) {
             try {
-                int a = Integer.parseInt(scan.next());
-                int b = Integer.parseInt(scan.next());
+                a = Integer.parseInt(scan.next());
+                b = Integer.parseInt(scan.next());
                 break;
             } catch (InputMismatchException e ) {
                 System.out.println("Wrong input");
