@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Sum implements Action {
 
+    private final int ACTIONNUMBER = 4;
+
     int a, b;
 
     private String description = "Enter two digits separated by space to get sum";
@@ -26,22 +28,24 @@ public class Sum implements Action {
         this.b = b;
     }
 
+    public int getActionNumber() {
+        return ACTIONNUMBER;
+    }
+
     public void description() {
         System.out.println(description);
-        String a = scan.next();
-        String b = scan.next();
+    }
+
+    public void doWork () {
         while (true) {
             try {
-                setA(Integer.parseInt(a));
-                setB(Integer.parseInt(b));
+                int a = Integer.parseInt(scan.next());
+                int b = Integer.parseInt(scan.next());
                 break;
             } catch (InputMismatchException e ) {
                 System.out.println("Wrong input");
             }
         }
-    }
-
-    public void doWork () {
         System.out.println("Sum is: "+(a+b));
     }
 }

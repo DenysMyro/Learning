@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -9,8 +8,9 @@ public class Main {
     static int select = 0;
 
     static Scanner scan = new Scanner(System.in);
-
-
+    static Matrix mm = new Matrix();
+    static Factorial fac = new Factorial();
+    static Sum sum = new Sum();
 
     public static void main(String[] args) {
 
@@ -21,6 +21,9 @@ public class Main {
             System.out.println("Wrong input. Type only digits");
             }
         }
+
+
+
     }
     public static void showMenu () {
         System.out.println();
@@ -33,30 +36,24 @@ public class Main {
 
         select = Integer.parseInt(scan.next());
 
-        switch (select) {
+        Action[] list = {mm, fac, sum};
 
-            case 1:
-                System.out.println("not implemented yet");
-                break;
-            case 2:
-                Matrix mm = new Matrix();
-                mm.description();
-                mm.doWork();
-                break;
-            case 3:
-                Factorial fac = new Factorial();
-                fac.description();
-                fac.doWork();
-                break;
-            case 4:
-                Sum sum = new Sum();
-                sum.description();
-                sum.doWork();
-                break;
-            default:
-                System.out.println("Exit");
-                isActive = false;
-                break;
+        for (Action item : list
+                ) {
+            if (item.getActionNumber() == select) {
+                item.description();
+                item.doWork();
+                showMenu();
+            } else {
+                if (select == 5) {
+                    System.out.println("Exit");
+                    isActive = false;
+                    break;
+                } else {
+                    System.out.println("Action is not available");
+                    break;
+                }
+            }
         }
     }
 }

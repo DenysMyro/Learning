@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class Factorial implements Action {
 
     int n;
+
+    private final int ACTIONNUMBER = 3;
+
     private String description = "Type number to calculate factorial";
 
     Scanner scan = new Scanner(System.in);
@@ -27,8 +30,18 @@ public class Factorial implements Action {
         return n*factorial(n-1);
     }
 
+
+    public int getActionNumber() {
+        return ACTIONNUMBER;
+    }
+
     public void description() {
         System.out.println(description);
+
+    }
+
+    public void doWork () {
+
         while (true) {
             String str = scan.nextLine();
             try {
@@ -39,9 +52,7 @@ public class Factorial implements Action {
                 System.out.println("Wrong input. Type a number");
             }
         }
-    }
 
-    public void doWork () {
         System.out.println("Factorial of "+n+" is: "+factorial(n));
     }
 

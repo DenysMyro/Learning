@@ -10,9 +10,15 @@ package com.company;
 import java.util.Scanner;
 
 public class Matrix implements Action {
+    private final int ACTIONNUMBER = 2;
     private String description = "Calculation of the sum of matrix elements under the main diagonal";
     int demention;
     int[][] mmm;
+
+
+    public int getActionNumber() {
+        return ACTIONNUMBER;
+    }
 
     public void description(){
         System.out.println(description);
