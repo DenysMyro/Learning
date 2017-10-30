@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static boolean isActive = true;
+    private static boolean isActive = true;
+
     static int select = 0;
 
     static Scanner scan = new Scanner(System.in);
+
     static Matrix mm = new Matrix();
     static Factorial fac = new Factorial();
     static Sum sum = new Sum();
@@ -26,6 +28,7 @@ public class Main {
 
     }
     public static void showMenu () {
+
         System.out.println();
         System.out.println("Welcome to calculator program! Select action by taping action number");
         System.out.println("1. Calculate quadratic equation ");
@@ -40,7 +43,7 @@ public class Main {
 
         for (Action item : list
                 ) {
-            if (item.getActionNumber() == select) {
+            if (select == item.getActionNumber()) {
                 item.description();
                 item.doWork();
             } else {
