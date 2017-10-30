@@ -43,16 +43,17 @@ public class Main {
             if (item.getActionNumber() == select) {
                 item.description();
                 item.doWork();
-                showMenu();
             } else {
                 if (select == 5) {
                     System.out.println("Exit");
                     isActive = false;
                     break;
-                } else {
-                    System.out.println("Action is not available");
-                    break;
                 }
+//                else {
+//                    System.out.println("Action is not available"+"\n");
+//                    break;
+
+//                }
             }
         }
     }
