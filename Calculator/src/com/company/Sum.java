@@ -44,7 +44,7 @@ public class Sum implements Action {
                 b = Integer.parseInt(scan.next());
                 break;
             } catch (NumberFormatException e ) {
-                System.out.println("Wrong input");
+                System.out.println("Wrong input. "+description);
             }
         }
         System.out.println("Sum is: "+(a+b));
