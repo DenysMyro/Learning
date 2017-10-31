@@ -1,0 +1,91 @@
+public class Task {
+
+	String taskTitle;
+	int taskTime;
+	int taskStartTime;
+	int taskEndTime;
+	int taskTimeInterval;
+	boolean isRepeatable;
+	boolean isActibe;
+
+	/*Constructors*/
+
+	public Task (String title, int time) {
+		this.taskTitle = title;
+		this.taskTime = time;
+		isAtive = false;
+		isRepeatable = false;
+	}
+
+	public Task (String title, int start, int end, int interval) {
+		this.tasktitle = title;
+		this.taskStartTime = start;
+		this.taskEndTime = end;
+		this.taskTimeInterval = interval;
+		isActive = false;
+		isRepeatable = true;
+		
+	}
+	
+	/*Getters&Setters*/
+
+	public String getTitle () { return taskTitle; }
+	
+	public void setTitle (String title) { this.taskTitle = title; }
+	
+	public boolean getIsActive () { return isActive; }
+	
+	public void setActive (boolean state) { this.isActive = state; }
+
+	public int getTime  () { 
+		if(isRepetable) {
+		return taskStartTime;
+		} else {
+		return taskTime;
+		}
+	}
+
+	public void setTime (int time) { 
+		taskStartTime = time; 
+		isRepeatable = false;
+	}
+
+	public int getStartTime () {
+		if(isRepetable) {
+		return taskStartTime;
+		} else {
+		return taskTime;
+		}
+	}
+	
+	public int getEndTime () {
+		if(isRepetable) {
+		return taskEndTime;
+		} else {
+		return taskTime;
+		}
+	}
+
+	public int getRepeatInterval () {
+	if(isRepetable) {
+		return taskTimeInterval;
+		} else {
+		return 0;
+		}
+	}
+	
+	
+	public void setTime (int start, int end, int interval) {
+		taskStartTime = start;
+		taskEndTime = end;
+		taskTimeInterval = interval;
+		isRepeatable = true;
+	}
+
+	public boolean isRepeated () {
+		retun isRepeatable;	
+	}
+
+
+
+}
