@@ -90,7 +90,11 @@ public class Task {
     
     public int nextTimeAfter (int current) {
         if (isRepeatable) {
-          return taskStartTime += taskTimeInterval;
+			if (current < taskStartTime) {
+				return taskStartTime;
+			} else {
+				return taskStartTime+=taskTimeInterval;
+			}
        }else {
        if (isActive && current<taskTime) {
             return taskTime;
