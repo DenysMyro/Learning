@@ -88,21 +88,30 @@ public class Task {
         return isRepeatable;
     }
     
-    public int nextTimeAfter (int current) {
+    public int nextTimeAfter(int current) {
         if (isRepeatable) {
-			if (current < taskStartTime) {
-				return taskStartTime;
-			} else {
-				return taskStartTime+=taskTimeInterval;
-			}
-       }else {
-       if (isActive && current<taskTime) {
-            return taskTime;
-          } else {
-          return -1;
-          }
-        }   
+            if (current < taskStartTime) {
+                return taskStartTime;
+            } else {
+                if (current + taskTimeInterval > taskEndTime)
+                    return -1;
+                else {
+                //int countOfIntervals = ((current - taskStartTime) + taskTimeInterval) / taskTimeInterval;
+                //return countOfIntervals * taskTimeInterval + taskStartTime;
+                int time = taskStartTime;
+                while (current >= time) {
+                time += taskTimeInterval;
+                }
+                   return time;
+                }
+            }
+        } else {
+            if (isActive && current < taskTime) {
+                return taskTime;
+            } else {
+                return -1;
+            }
+        }
     }
-    
 }
 
