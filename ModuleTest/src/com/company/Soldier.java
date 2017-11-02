@@ -25,13 +25,17 @@ public class Soldier extends Human implements ABLE_TO_FIGHT {
         this.commanderToReport = commanderToReport;
     }
 
+    public String getRank() {
+        return rank;
+    }
+
     public void report() {
-        System.out.println("Reporting to "+getCommanderToReport());
-        System.out.println("Ready to fight");
+        System.out.println(getRank()+" "+getName()+" Reporting to "+getCommanderToReport());
+        System.out.println(getRank()+" "+getName()+" Ready to fight");
     }
 
 
     public void fight() {
-        System.out.println(rank+" "+this.name + "Is fighting");
+        System.out.println(rank+" "+this.name + " Is fighting");
     }
 }

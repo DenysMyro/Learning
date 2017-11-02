@@ -20,6 +20,14 @@ public class General extends Human implements ABLE_TO_FIGHT {
 
     @Override
     public void fight() {
-        System.out.println((getRank()+" "+getName()+"can command only"));
+        try {
+            throw new GeneralNotFighting();
+        } catch (GeneralNotFighting e) {
+            System.out.println(e.message);
+        }
+    }
+    @Override
+    public String toString() {
+        return rank +" "+ name;
     }
 }

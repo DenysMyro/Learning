@@ -39,4 +39,9 @@ public class Commander extends Human implements ABLE_TO_FIGHT{
     public void fight() {
         System.out.println(getRank()+" "+getName()+" Is fighting");
     }
+
+    @Override
+    public String toString() {
+        return rank +" "+ name;
+    }
 }
