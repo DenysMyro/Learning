@@ -13,7 +13,7 @@ public class Main {
 
         Soldier soldier2 = new Soldier("Jone Snow", commander2);
 
-        ABLE_TO_FIGHT list [] = {general, commander1, soldier1, soldier2};
+        ABLE_TO_FIGHT list [] = {general, commander1, commander2, soldier1, soldier2};
 
         for (ABLE_TO_FIGHT man: list
              ) { man.report();

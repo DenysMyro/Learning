@@ -32,12 +32,12 @@ public class Commander extends Human implements ABLE_TO_FIGHT{
 
     public void report() {
         System.out.println(getRank()+" "+getName()+" Reporting to "+getGeneralToReport());
-        System.out.println("Ready to fight");
+        System.out.println(getRank()+" "+getName()+"Ready to fight");
     }
 
 
     public void fight() {
-        System.out.println(getRank()+" "+getName()+" Is fighting");
+        System.out.println(getRank()+" "+getName()+" Is fighting"+"\n");
     }
 
     @Override

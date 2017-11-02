@@ -36,6 +36,6 @@ public class Soldier extends Human implements ABLE_TO_FIGHT {
 
 
     public void fight() {
-        System.out.println(rank+" "+this.name + " Is fighting");
+        System.out.println(rank+" "+getName() + " Is fighting"+"\n");
     }
 }

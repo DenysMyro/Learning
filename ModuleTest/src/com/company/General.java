@@ -23,7 +23,7 @@ public class General extends Human implements ABLE_TO_FIGHT {
         try {
             throw new GeneralNotFighting();
         } catch (GeneralNotFighting e) {
-            System.out.println(e.message);
+            System.out.println(e.message+"\n");
         }
     }
     @Override
