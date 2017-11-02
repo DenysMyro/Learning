@@ -13,6 +13,7 @@ public class Main {
     static Matrix mm = new Matrix();
     static Factorial fac = new Factorial();
     static Sum sum = new Sum();
+    static QuadraricEquation quad = new QuadraricEquation();
 
     public static void main(String[] args) {
 
@@ -39,7 +40,7 @@ public class Main {
 
         select = Integer.parseInt(scan.next());
 
-        Action[] list = {mm, fac, sum};
+        Action[] list = {mm, fac, sum, quad};
 
         for (Action item : list
                 ) {
@@ -52,11 +53,6 @@ public class Main {
                     isActive = false;
                     break;
                 }
-//                else {
-//                    System.out.println("Action is not available"+"\n");
-//                    break;
-
-//                }
             }
         }
     }
