@@ -96,9 +96,6 @@ public class Task {
                 if (current + taskTimeInterval > taskEndTime)
                     return -1;
                 else {
-                //int countOfIntervals = ((current - taskStartTime) + taskTimeInterval) / taskTimeInterval;
-                //return countOfIntervals * taskTimeInterval + taskStartTime;
-                int time = taskStartTime;
                 while (current >= time) {
                 time += taskTimeInterval;
                 }

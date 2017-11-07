@@ -1,12 +1,15 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Hobby noHobby = new Hobby();
+     /* Hobby noHobby = new Hobby();
         MountingBiking biking = new MountingBiking(2, "Commencal");
         Hobby mtb = new MountingBiking("el Camino");
         VideoGaming gaming = new VideoGaming(3,"Dark Souls");
@@ -24,16 +27,22 @@ public class Main {
         } catch (BrokenKneeException e) {
             System.out.println("exception 2 caught "+"\n"+ e.getMessage());
         }
+        */
 
-        List<Runnable> a = null;
-        List<Runnable> b = sort(a);
+        MountingBiking biking = new MountingBiking(1, "ElCamino", "I like to do MTB", 2.5f);
+        VideoGaming gaming = new VideoGaming(7, "Dark Souls","Video games is my passion", 7);
 
-    }
+        List <Hobby> ls = new ArrayList<>();
 
+        ls.add(biking);
+        ls.add(gaming);
 
-    private static <T extends Runnable> List<T> sort(List<T> list) {
-        list.get(0).run();
-        return list;
+        System.out.println("before sorting: "+ls+"\n");
+
+        Collections.sort(ls, new HobbyComarator());
+
+        System.out.println("after sorting: "+ls);
+
     }
 
 }

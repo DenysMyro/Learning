@@ -41,4 +41,8 @@ public class Hobby {
         System.out.println("I have no Hobby"+"\n");
     }
 
+    @Override
+    public String toString() {
+        return title;
+    }
 }
