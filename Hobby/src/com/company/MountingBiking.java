@@ -17,9 +17,9 @@ public class MountingBiking extends Hobby {
     }
 
     public MountingBiking (){
-        super.title = "Mounting Biking";
-        timesPerWeek = 0;
+        super("Mounting Biking", 0);
     }
+
     public MountingBiking (int times, String bike) {
         super("Mounting Biking", times);
         this.bikeName = bike;
@@ -56,8 +56,8 @@ public class MountingBiking extends Hobby {
     }
 
     public void tellAboutHobby () {
-        System.out.println("my hobby is "+ this.title);
-        System.out.println("I do it "+timesPerWeek+" times per week.");
+        System.out.println("my hobby is "+ getTitle());
+        System.out.println("I do it "+getTimesPerWeek()+" times per week.");
         System.out.println("i have "+bikeName+" bike."+"\n");
     }
 

@@ -2,8 +2,10 @@ package com.company;
 
 public class Hobby {
 
-    String title;
-    int timesPerWeek;
+    private String title;
+    private int timesPerWeek;
+    private float averageHours;
+    private String description;
 
     /*CONSTRUCTORS*/
 
@@ -17,6 +19,13 @@ public class Hobby {
     public Hobby (String name, int times) {
         this.title = name;
         this.timesPerWeek = times;
+    }
+
+    public Hobby (String title, int times, String description, float averageHours) {
+        this.title = title;
+        this.timesPerWeek = times;
+        this.description = description;
+        this.averageHours = averageHours;
     }
 
     /*METHODS*/
@@ -37,12 +46,28 @@ public class Hobby {
         this.timesPerWeek = timesPerWeek;
     }
 
-    public void tellAboutHobby () {
-        System.out.println("I have no Hobby"+"\n");
+    public float getAvaregeHours() {
+        return averageHours;
+    }
+
+    public void setAvaregeHours(float avaregeHours) {
+        this.averageHours = avaregeHours;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void tellAboutHobby() {
+        System.out.println("My hobby is "+getTitle()+"\n"+getDescription()+" I do "+getTitle()+" "+getTimesPerWeek()+" times per week, in average for "+getAvaregeHours()+" hours"+"\n");
     }
 
     @Override
     public String toString() {
-        return title;
+        return getTitle();
     }
 }

@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Comparator;
 
-public class HobbyComarator implements Comparator <Hobby>{
+public class HobbyComparatorByTitle implements Comparator <Hobby>{
 
     @Override
     public int compare(Hobby o1, Hobby o2) {

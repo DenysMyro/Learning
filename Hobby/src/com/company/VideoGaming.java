@@ -17,11 +17,6 @@ public class VideoGaming extends Hobby {
         return descritpion;
     }
 
-    @Override
-    public int getTimesPerWeek() {
-        return timesPerWeek;
-    }
-
     public float getAvarageHours() {
         return avarageHours;
     }
@@ -30,10 +25,6 @@ public class VideoGaming extends Hobby {
         this.descritpion = descritpion;
     }
 
-    @Override
-    public void setTimesPerWeek(int timesPerWeek) {
-        this.timesPerWeek = timesPerWeek;
-    }
 
     public void setAvarageHours(float avarageHours) {
         this.avarageHours = avarageHours;
@@ -48,8 +39,8 @@ public class VideoGaming extends Hobby {
     }
 
     public void tellAboutHobby () {
-        System.out.println("my hobby is "+ this.title);
-        System.out.println("I do it "+timesPerWeek+" times per week.");
+        System.out.println("my hobby is "+ getTitle());
+        System.out.println("I do it "+getTimesPerWeek()+" times per week.");
         System.out.println("My favorite game is "+favoriteGame+"\n");
     }
 }
