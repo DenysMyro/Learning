@@ -3,17 +3,13 @@ package com.company;
 import org.omg.CORBA.PUBLIC_MEMBER;
 
 public class MountingBiking extends Hobby {
-    String bikeName;
-    private String description;
-    float avarageHours;
+    private String bikeName;
 
         /*CONSTRUCTORS*/
 
     public MountingBiking( int times, String bikeName, String description, float avarageHours) {
-        super("Mounting Biking", times);
+        super("Mounting Biking", times, description, avarageHours);
         this.bikeName = bikeName;
-        this.description = description;
-        this.avarageHours = avarageHours;
     }
 
     public MountingBiking (){
@@ -37,22 +33,6 @@ public class MountingBiking extends Hobby {
 
     public void setBikeName(String bikeName) {
         this.bikeName = bikeName;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public float getAvarageHours() {
-        return avarageHours;
-    }
-
-    public void setAvarageHours(float avarageHours) {
-        this.avarageHours = avarageHours;
     }
 
     public void tellAboutHobby () {

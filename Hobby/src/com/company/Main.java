@@ -20,7 +20,7 @@ public class Main {
     static public void showMenu () {
         MountingBiking biking = new MountingBiking(1, "ElCamino", "I like to do MTB", 3);
         VideoGaming gaming = new VideoGaming(7, "Dark Souls","Video games is my passion", 7);
-        Hobby hobby1 = new Hobby("hobby1", 5, "I like hobby 1", 5);
+        Hobby hobby1 = new Hobby("hobby1", 5, "I do like hobby 1", 5);
         Hobby hobby2 = new Hobby("hobby2", 1, "hobby2 is good", 1);
 
         List <Hobby> ls = new ArrayList<>();
@@ -66,7 +66,7 @@ public class Main {
             case 4:
                 System.out.println("Original order"+ls);
                 Collections.sort(ls, new HobbyComparatorByDescription());
-                System.out.println("Sorted by Description: "+ls);
+                System.out.println("Sorted by Description length: "+ls);
                 break;
             case 5:
                 System.out.println("Original order"+ls);
@@ -77,6 +77,7 @@ public class Main {
                 System.out.println("Original order"+ls);
                 Collections.sort(ls, new HobbyComparatorByFloat());
                 System.out.println("Sorted by times per week: "+ls);
+                break;
             default:
                 isAvtive = false;
                 break;

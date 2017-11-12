@@ -6,6 +6,12 @@ public class HobbyComparatorByDescription implements Comparator <Hobby> {
 
     @Override
     public int compare(Hobby o1, Hobby o2) {
-        return o1.getDescription().compareTo(o2.getDescription());
+        if (o1.getDescription().length()<o2.getDescription().length())
+                return 1;
+        else
+            if (o1.getDescription().length()==o2.getDescription().length())
+                return 0;
+            else
+                return -1;
     }
 }
