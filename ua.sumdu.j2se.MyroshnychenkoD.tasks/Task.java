@@ -93,13 +93,17 @@ public class Task {
             if (current < taskStartTime) {
                 return taskStartTime;
             } else {
-                if (current + taskTimeInterval > taskEndTime)
-                    return -1;
-                else {
-                while (current >= time) {
-                time += taskTimeInterval;
+                if (current >= taskStartTime&&current<=taskEndTime) {
+                    int time = taskStartTime;
+                    while (current >= time) {
+                        time += taskTimeInterval;
+                        if(time>taskEndTime)
+                            return -1;
+                    }
+                    return time;
                 }
-                   return time;
+                else {
+                    return -1;
                 }
             }
         } else {
