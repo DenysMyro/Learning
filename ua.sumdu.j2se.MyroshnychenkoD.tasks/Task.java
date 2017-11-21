@@ -1,4 +1,4 @@
-package ua.edu.sumdu.j2se.MyroshnychenkoDenys.tasks;
+package com.company;
 
 public class Task {
 
@@ -19,6 +19,13 @@ public class Task {
         isRepeatable = false;
     }
 
+    public Task (String title, int time, boolean active) {
+        this.taskTitle = title;
+        this.taskTime = time;
+        isActive = active;
+        isRepeatable = false;
+    }
+
     public Task (String title, int start, int end, int interval) {
         this.taskTitle = title;
         this.taskStartTime = start;
@@ -28,7 +35,17 @@ public class Task {
         isRepeatable = true;
 
     }
-	
+
+    public Task (String title, int start, int end, int interval, boolean active) {
+        this.taskTitle = title;
+        this.taskStartTime = start;
+        this.taskEndTime = end;
+        this.taskTimeInterval = interval;
+        isActive = active;
+        isRepeatable = true;
+
+    }
+
 	/*Getters&Setters*/
 
     public String getTitle () { return taskTitle; }
@@ -87,7 +104,7 @@ public class Task {
     public boolean isRepeated () {
         return isRepeatable;
     }
-    
+
     public int nextTimeAfter(int current) {
         if (isRepeatable) {
             if (current < taskStartTime) {
@@ -114,5 +131,9 @@ public class Task {
             }
         }
     }
-}
 
+    @Override
+    public String toString() {
+        return  taskTitle;
+    }
+}

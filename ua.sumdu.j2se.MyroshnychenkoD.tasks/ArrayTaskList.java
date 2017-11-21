@@ -1,56 +1,58 @@
-package ua.edu.sumdu.j2se.MyroshnychenkoDenys.tasks;
+package com.company;
 
 import java.util.Arrays;
 
 public class ArrayTaskList {
 
-    private Task[] tasklist = new Task [1];
-    int listHead = 0;
+    private Task[] tasklist = new Task[5];
+    int size = 0;
 
     public void add(Task task) {
-        if(listHead>=tasklist.length) {
-            Task tempList [] = new Task[tasklist.length+1];
-            for(int i=0;i<tasklist.length;i++){
-                tempList [i] = tasklist [i];
+        if (size >= tasklist.length) {
+            Task tempList[] = new Task[tasklist.length + 5];
+            for (int i = 0; i < tasklist.length; i++) {
+                tempList[i] = tasklist[i];
             }
             tasklist = tempList;
         }
-        tasklist [listHead] = task;
-        listHead++;
+        tasklist[size] = task;
+        size++;
     }
 
-    public boolean remove (Task task) {
-        for(int i=0; i<tasklist.length;i++){
-            if (task.equals(tasklist[i])){
+    public boolean remove(Task task) {
+        for (int i = 0; i < tasklist.length; i++) {
+            if (task.equals(tasklist[i])) {
                 tasklist[i] = null;
+                Task tempList[] = tasklist;
+                for (int j = i; j < tasklist.length; j++) {
+                    if (j + 1 < tempList.length)
+                        tasklist[j] = tempList[j + 1];
+                }
+                size--;
+                tasklist[size] = null;
                 return true;
             }
         }
         return false;
     }
 
-    public int size () {
-        int count = 0;
-        for(int i=0;i<tasklist.length;i++){
-            if(tasklist[i] != null)
-                count++;
-        }
-        return count;
+    public int size() {
+        return size;
     }
 
-    public Task getTask (int index) {
+    public Task getTask(int index) {
         if (index > tasklist.length)
             return null;
         else
             return tasklist[index];
     }
 
-    public ArrayTaskList incoming (int from, int to) {
+    public ArrayTaskList incoming(int from, int to) {
         ArrayTaskList incoming = new ArrayTaskList();
         for (Task listItem : tasklist) {
-            if (listItem != null&&listItem.isActive) {
+            if (listItem != null && listItem.isActive()) {
                 if (listItem.isRepeatable) {
-                    if (listItem.nextTimeAfter(from)!=-1&&listItem.nextTimeAfter(from)<=to) {
+                    if (listItem.nextTimeAfter(from) != -1 && listItem.nextTimeAfter(from) <= to) {
                         incoming.add(listItem);
                     }
                 } else {
@@ -61,5 +63,15 @@ public class ArrayTaskList {
             }
         }
         return incoming;
+    }
+
+    @Override
+    public String toString() {
+        String temp = "";
+        for(int i=0;i<size;i++){
+
+            temp += tasklist[i].toString()+" ";
+        }
+        return temp;
     }
 }
