@@ -1,4 +1,4 @@
-package com.company;
+package ua.edu.sumdu.j2se.MyroshnychenkoDenys.tasks;
 
 import java.util.Arrays;
 
@@ -47,21 +47,15 @@ public class ArrayTaskList {
             return tasklist[index];
     }
 
-    public ArrayTaskList incoming(int from, int to) {
+    public ArrayTaskList incoming (int from, int to) {
         ArrayTaskList incoming = new ArrayTaskList();
         for (Task listItem : tasklist) {
-            if (listItem != null && listItem.isActive()) {
-                if (listItem.isRepeatable) {
-                    if (listItem.nextTimeAfter(from) != -1 && listItem.nextTimeAfter(from) <= to) {
-                        incoming.add(listItem);
-                    }
-                } else {
-                    if (listItem.getTime() > from && listItem.getTime() <= to) {
-                        incoming.add(listItem);
-                    }
+            if (listItem != null&&listItem.isActive) {
+                    if (listItem.nextTimeAfter(from)<=to&&listItem.nextTimeAfter(from)!=-1) {
+                        incoming.add(listItem); 
                 }
             }
-        }
+        }   
         return incoming;
     }
 
