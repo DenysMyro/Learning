@@ -10,6 +10,10 @@ public class Observer1 extends Observer {
     @Override
     public void update(String state) {
         this.state = state;
-        System.out.println("updated"+this.state);
+        System.out.println("updated1 "+getObs1State());
+    }
+
+    public String getObs1State() {
+        return state;
     }
 }

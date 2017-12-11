@@ -1,14 +1,20 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Subject {
 
     String state;
-    List <Observer> list;
+    List<Observer> list = new ArrayList<>();
 
 
-    public Subject() {}
+    public Subject() {
+    }
+
+    public Subject(String state) {
+        this.state = state;
+    }
 
     public Subject(String state, Observer ob) {
         this.state = state;
@@ -24,13 +30,13 @@ public class Subject {
         notifyAllObservers();
     }
 
-    public void attach (Observer obs) {
+    public void attach(Observer obs) {
         list.add(obs);
     }
 
-    public void notifyAllObservers () {
-        for (Observer ob:list
-             ) {
+    public void notifyAllObservers() {
+        for (Observer ob : list
+                ) {
             ob.update(getState());
         }
     }

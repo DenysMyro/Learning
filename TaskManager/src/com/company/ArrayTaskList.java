@@ -48,20 +48,13 @@ public class ArrayTaskList {
     }
 
     public ArrayTaskList incoming(int from, int to) {
+
         ArrayTaskList incoming = new ArrayTaskList();
         for (Task listItem : tasklist) {
-            if (listItem != null && listItem.isActive()) {
-                if (listItem.isRepeatable) {
                     if (listItem.nextTimeAfter(from) != -1 && listItem.nextTimeAfter(from) <= to) {
                         incoming.add(listItem);
                     }
-                } else {
-                    if (listItem.getTime() > from && listItem.getTime() <= to) {
-                        incoming.add(listItem);
-                    }
                 }
-            }
-        }
         return incoming;
     }
 
