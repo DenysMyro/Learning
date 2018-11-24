@@ -10,11 +10,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String csvFile = "/home/denys/IdeaProjects/Learning/TimeReportsComparator/Masslight_October.csv";
+        String csvFile = "C:\\IdeaProjects\\Learning\\TimeReportsComparator/Masslight_October.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
         String[] Employee = new String[10];
+        Employee first = new Employee();
 
         try {
 
@@ -25,7 +26,7 @@ public class Main {
                 String[] country = line.split(cvsSplitBy);
 
                 for (int i =0;i<country.length;i++){
-                    System.out.println(country[i]);
+                    System.out.print(country[i]);
                 }
 
             }
@@ -44,7 +45,7 @@ public class Main {
             }
         }
 
-
+        System.out.println(first.getName());
 
     }
 }
