@@ -1,20 +1,19 @@
 package com.company;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class Employee {
 
-    private String Name;
+    private String name;
     private HashMap<String, Double> hm;
 
     public Employee(String name) {
         hm = new HashMap<>();
-        Name = name;
+        this.name = name;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
 
@@ -25,9 +24,11 @@ public class Employee {
     }
 
     public Object getObj (String key){
-        return hm.;
-        
+        return null;
+
     }
 
-
+    public HashMap<String, Double> getProjectsMap() {
+        return hm;
+    }
 }

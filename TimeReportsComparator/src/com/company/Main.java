@@ -8,8 +8,8 @@ public class Main {
         String [] projects = {"project1", "project2", "project3"};
         double [] hours = {5.0, 2.2, 0.75};
 
-        TimeReport rep1 = new TimeReport();
-        TimeReport rep2 = new TimeReport();
+        TimeTrackingSys rep1 = new TimeTrackingSys();
+        TimeTrackingSys rep2 = new TimeTrackingSys();
         Employee p1 = new Employee("testName");
         Employee p2 = new Employee("testName2");
         Employee p3 = new Employee("testName3");
