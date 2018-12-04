@@ -4,30 +4,21 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        TimeTrackingSys sys1 = new TimeTrackingSys("NAV");
+        sys1.addPerson("Radko Roman", "ASI Android", 100.0);
+        sys1.addPerson("Serg Martynenko", "DCBFC", 8.0);
+        sys1.addPerson("Denka Myro", "Pacify", 40.0);
+        sys1.addPerson("Denka Myro", "Medela", 20.0);
 
-        String [] projects = {"project1", "project2", "project3"};
-        double [] hours = {5.0, 2.2, 0.75};
+        TimeTrackingSys sys2 = new TimeTrackingSys("QuickBooks");
+        sys2.addPerson("Radko Roman", "ASI Android", 150.0);
+        sys2.addPerson("Radko Roman", "LoompingTheDay", 1.0);
+        sys2.addPerson("Serg Martynenko", "DCBFC", 8.0);
+        sys2.addPerson("Serg Martynenko", "DCBFC", 8.0);
+        sys2.addPerson("Denka Myro", "Pacify", 40.0);
+        sys2.addPerson("Denka Myro", "Medela", 20.0);
 
-        TimeTrackingSys rep1 = new TimeTrackingSys();
-        TimeTrackingSys rep2 = new TimeTrackingSys();
-        Employee p1 = new Employee("testName");
-        Employee p2 = new Employee("testName2");
-        Employee p3 = new Employee("testName3");
-
-        p1.addHoursToProject(projects[0],hours[1]);
-        p1.addHoursToProject(projects[1],hours[1]);
-        p2.addHoursToProject(projects[0],hours[0]);
-        p3.addHoursToProject(projects[2], hours[2]);
-
-
-        rep1.addPerson(p1);
-        rep1.addPerson(p2);
-        rep2.addPerson(p3);
-
-        for(int i=0; i<rep1.EmpList.size(); i++){
-            String key = rep1.EmpList.get(i).getName();
-            System.out.println(rep1.getPerson(i).getObj(key));
-        }
+        System.out.println(sys1.comapre(sys2));
 
     }
 }

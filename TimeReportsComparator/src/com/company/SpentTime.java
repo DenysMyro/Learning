@@ -1,8 +1,6 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class SpentTime {
 
@@ -14,24 +12,24 @@ public class SpentTime {
 
     public void addTime(String project, double time) {
         projectToTime.put(project, getTime(project) + time);
-
     }
 
-    public Map<String, Double> comapre(SpentTime other) {
-        Map<String, Double> missMatch = new HashMap<>();
-        Set<String> allProjects = projectToTime.keySet();
+    public List<String> findMissmatchProjects (SpentTime other) {
+        List<String> missMatch = new ArrayList<>();
+        Set<String> allProjects = new HashSet<>();
+                allProjects.addAll(projectToTime.keySet());
         allProjects.addAll(other.projectToTime.keySet());
         for (String project : allProjects) {
             double myTime = getTime(project);
             double otherTime = other.getTime(project);
             if (myTime != otherTime) {
-                missMatch.put(project, myTime - otherTime);
+                missMatch.add(project);
             }
         }
         return missMatch;
     }
 
-    private double getTime(String project) {
+    public double getTime(String project) {
         if (projectToTime.containsKey(project)) {
             return projectToTime.get(project);
         }
