@@ -15,7 +15,7 @@ public class TimeTrackingSys {
         getSpentTime(personName).addTime(project, time);
     }
 
-    public String comapre(TimeTrackingSys otherSys) {
+    public String compare(TimeTrackingSys otherSys) {
         StringBuilder report = new StringBuilder("");
         Set<String> allEmployees = new HashSet<>();
         allEmployees.addAll(employeeTime.keySet());
@@ -26,7 +26,9 @@ public class TimeTrackingSys {
             List<String> missmatch = sys1.findMissmatchProjects(sys2);
             Collections.sort(missmatch);
             if (!missmatch.isEmpty()) {
-                report.append(employee).append("\n");
+                report.append("----------------------------------------\n")
+                        .append(employee)
+                        .append("\n");
                 for (String project : missmatch) {
                     report.append(project)
                             .append(": ")
