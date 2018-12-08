@@ -4,19 +4,23 @@ import java.io.*;
 
 public class DTICparser {
 
+    /**
+     * Add new csv file each time, extract data to Time tracking Sys and then add new file again
+     */
 
-    public static void main(String[] args) {
+    BufferedReader br = null;
+    String line = "";
+    String cvsSplitBy = ";";
+    String[][] reportTable;
+    int lineCounter = 0;
 
-        String csvFile = "C:\\IdeaProjects\\Learning\\TimeReportsComparator\\October.csv";
-        BufferedReader br = null;
-        String line = "";
-        String cvsSplitBy = ",";
-        String[][] reportTable = new String[8][30];
-        int lineCounter = 0;
+
+    public void addSheet(String csvFilePath) {
+        reportTable = new String[15][30]; //clear table with creating new
 
         //Read file and put it to 2d arr
         try {
-            br = new BufferedReader(new FileReader(csvFile));
+            br = new BufferedReader(new FileReader(csvFilePath));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("NOFILE!");
@@ -32,22 +36,25 @@ public class DTICparser {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
 
+    public void printTable() {
         for (int i = 0; i < reportTable.length; i++) {
             for (int j = 0; j < reportTable[i].length; j++) {
-                System.out.print(" " + reportTable[i][j]);
+                System.out.print("|" + reportTable[i][j]);
             }
             System.out.println();
         }
     }
 
-
-    public void printTable() {
-
-    }
-
-    public String getName(int row) {
-        return null;//reportTable[row][1];
+    public String getName() {
+        String name = reportTable[3][0];
+        if (!name.isEmpty()) {
+            String[] tmp = name.split(",");
+            name = tmp[1].replace(" ", "") + " " + tmp[0];
+            return name;
+        }
+        return null;
     }
 
     public double getHours(int row) {

@@ -7,9 +7,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         /*CSV file path*/
-//        File doc = new File("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\October.xls");
-        File doc = new File("/home/denys/IdeaProjects/Learning/TimeReportsComparator/October.xls");
-        String csvFile = "C:\\IdeaProjects\\Learning\\TimeReportsComparator\\PowertekPriorMonthHoursReport.csv";
+
+//        File doc = new File("/home/denys/IdeaProjects/Learning/TimeReportsComparator/October.xls");
+        String firstCSVfile = "C:\\IdeaProjects\\Learning\\TimeReportsComparator\\PowertekPriorMonthHoursReportNOV.csv";
+        String report2 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets14.csv");
+        String report3 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets2.csv");
 
         /* MOCK DATA*/
         TimeTrackingSys sys1 = new TimeTrackingSys("NAV");
@@ -27,16 +29,19 @@ public class Main {
 //        sys2.addPerson("Denka Myro", "Pacify", 40.0);
 //        sys2.addPerson("Denka Myro", "Medela", 20.0);
 
-        PowertekParser parser = new PowertekParser(csvFile, ";", 535, 8);
+        PowertekParser parser = new PowertekParser(firstCSVfile, ";", 535, 8);
+        DTICparser secondParser = new DTICparser();
         for (int i = 1; i < parser.getLineCounter(); i++) { //i=1 cause 0 is table table
             sys1.addPerson(parser.getName(i), parser.gerProjectName(i), parser.getHours(i));
             sys2.addPerson(parser.getName(i), parser.gerProjectName(i), parser.getHours(i));
-
         }
         sys1.addPerson(parser.getName(12), parser.gerProjectName(31), 255.2);
-//        System.out.println(sys1.compare(sys2));
+        System.out.println(sys1.compare(sys2));
 
-
+        secondParser.addSheet(report2);
+        secondParser.printTable();
+        System.out.println(secondParser.getName());
+        parser.printTable();
     }
 }
 
