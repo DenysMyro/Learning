@@ -1,0 +1,535 @@
+Activity Date;Employee;Memo/Description;Rates;Duration;Billable;Amount;Customer
+11/01/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/01/2018;Daniel Pham;;;2,5;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/01/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/01/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/01/2018;Eskendir Mulugeta;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/01/2018;Becky McCrory;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/01/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/01/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/01/2018;Oliver Minall;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/01/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/01/2018;Phyllis Thompson;Worked 8 hours.;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/01/2018;Grace Opara;8 hours;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/01/2018;Nathan Brooks;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/01/2018;Ashley VanMeter;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/01/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/01/2018;Daniel Pham;;;2,5;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/01/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/01/2018;Carrie Carignan;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/01/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/01/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/01/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/01/2018;Adrian Vigneault;;;3;No;;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/01/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/01/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/01/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/01/2018;Ashley VanMeter;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/01/2018;Kendra Wadsworth;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/02/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/02/2018;Ashley VanMeter;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/02/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/02/2018;Eskendir Mulugeta;;;10;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/02/2018;Becky McCrory;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/02/2018;Kendra Wadsworth;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/02/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/02/2018;Michael Timpson;Security - CTO Portal;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/02/2018;Aziz Ibrahim;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/02/2018;Oliver Minall;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/02/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/02/2018;Phyllis Thompson;Worked 8 hours;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/02/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/02/2018;Nathan Brooks;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/02/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/02/2018;Carrie Carignan;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/02/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/02/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/02/2018;Mike Gentry;;;10;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/02/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/02/2018;Adrian Vigneault;;;3;No;;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/02/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/02/2018;Michael Timpson;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/02/2018;Ashley VanMeter;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/02/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/02/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/02/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/03/2018;Adrian Vigneault;;0,00  ;3;No;;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/03/2018;Mike Gentry;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/04/2018;Michael Timpson;Building UX for Hello DTIC - iOS;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/04/2018;Aziz Ibrahim;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/05/2018;Kendra Wadsworth;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/05/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/05/2018;Severin Moffo;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/05/2018;Abdul Wahab;Description;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/05/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/05/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/05/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/05/2018;Michael Timpson;CTO Portal Security Fixes;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/05/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/05/2018;Kendra Wadsworth;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/05/2018;Oliver Minall;;;8,25;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/05/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/05/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/05/2018;Phyllis Thompson;Worked 8 hours.;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/05/2018;Nathan Brooks;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/05/2018;Ashley VanMeter;;;4,25;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/05/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/05/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/05/2018;Carrie Carignan;;0,00  ;5;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/05/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/05/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/05/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/05/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/05/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/05/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/05/2018;Michael Timpson;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/05/2018;Ashley VanMeter;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/05/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/06/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/06/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/06/2018;Abdul Wahab;Description;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/06/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/06/2018;Severin Moffo;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/06/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/06/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/06/2018;Michael Timpson;Encrypting Elastic;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/06/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/06/2018;Kendra Wadsworth;;;7;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/06/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/06/2018;Oliver Minall;;;8,5;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/06/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/06/2018;Phyllis Thompson;Worked 8 hours;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/06/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/06/2018;Christopher Harpley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/06/2018;Carrie Carignan;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/06/2018;Mike Gentry;;;6,5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/06/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/06/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/06/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/06/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/06/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/06/2018;Michael Timpson;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/06/2018;Ashley VanMeter;;;4,25;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/06/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/06/2018;Ashley VanMeter;;;4,25;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/06/2018;Kendra Wadsworth;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/07/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/07/2018;Michael Timpson;1 hour Hello DTIC iOS.;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/07/2018;Severin Moffo;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/07/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/07/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/07/2018;Kendra Wadsworth;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/07/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/07/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Congressional Budget Queries (Software Development) - 4.01.AA.01.03.05.014.B.201
+11/07/2018;Michael Timpson;4 hours CTO Portal Security;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/07/2018;Aziz Ibrahim;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/07/2018;Kendra Wadsworth;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/07/2018;Oliver Minall;;;8,75;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/07/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/07/2018;Phyllis Thompson;Worked 8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/07/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/07/2018;Phyllis Thompson;Worked 6 hrs.;0,00  ;6;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/07/2018;Nathan Brooks;;0,00  ;5;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/07/2018;Ashley VanMeter;;;4,25;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/07/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/07/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/07/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/07/2018;Christopher Harpley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/07/2018;Carrie Carignan;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/07/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/07/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/07/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/07/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/07/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/07/2018;Michael Timpson;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/07/2018;Ashley VanMeter;;;4,5;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/07/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/07/2018;Abdul Wahab;Description;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/08/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/08/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/08/2018;Abdul Wahab;Description;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/08/2018;Severin Moffo;;0,00  ;8,5;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/08/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/08/2018;Kendra Wadsworth;;0,00  ;1,5;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/08/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/08/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Congressional Budget Queries (Software Development) - 4.01.AA.01.03.05.014.B.201
+11/08/2018;Michael Timpson;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/08/2018;Aziz Ibrahim;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/08/2018;Kendra Wadsworth;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/08/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/08/2018;Oliver Minall;;;8,75;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/08/2018;Phyllis Thompson;Worked 5 hrs.;0,00  ;5;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/08/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/08/2018;Nathan Brooks;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/08/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/08/2018;Christopher Harpley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/08/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/08/2018;Carrie Carignan;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/08/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/08/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/08/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/08/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/08/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/08/2018;Ashley VanMeter;;;4,5;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/08/2018;Michael Timpson;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/08/2018;Ashley VanMeter;;;4,25;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/08/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/08/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/09/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/09/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/09/2018;Abdul Wahab;Description;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/09/2018;Severin Moffo;;0,00  ;8,5;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/09/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/09/2018;Kendra Wadsworth;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/09/2018;Abdul Wahab;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/09/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/09/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/09/2018;Grace Opara;8 hours;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/09/2018;Nathan Brooks;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/09/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/09/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/09/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/09/2018;Christopher Harpley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/09/2018;Carrie Carignan;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/09/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/09/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/09/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/09/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/09/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/09/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/09/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/09/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/09/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/12/2018;Kendra Wadsworth;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/12/2018;Michael Timpson;Research UI Scroll View/Implement Search Page;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/12/2018;Aseel Cortbawi;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/12/2018;Phyllis Thompson;Worked 8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/13/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/13/2018;Kendra Wadsworth;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/13/2018;Eskendir Mulugeta;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/13/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/13/2018;Becky McCrory;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/13/2018;Abdul Wahab;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/13/2018;Abdul Wahab;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/13/2018;Aziz Ibrahim;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/13/2018;Kendra Wadsworth;;;7;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/13/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/13/2018;Oliver Minall;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/13/2018;Grace Opara;7hrs;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/13/2018;Ashley VanMeter;;;3,5;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/13/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/13/2018;Dawite Ewnetu;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/13/2018;Christopher Harpley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/13/2018;Carrie Carignan;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/13/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/13/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/13/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/13/2018;Hung Ton;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/13/2018;Becky McCrory;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/13/2018;Kurt Struder;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Data Analytics) - 4.13.AC.01.02.07.058.F.601
+11/13/2018;Ashley VanMeter;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/13/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/13/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/13/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/13/2018;Michael Timpson;Implement the UI Table View for the search page;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/14/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/14/2018;Michael Timpson;Hello Dtic Mobile Meeting/Demo;0,00  ;0,5;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/14/2018;Becky McCrory;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/14/2018;Kendra Wadsworth;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/14/2018;Abdul Wahab;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/14/2018;Abdul Wahab;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/14/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/14/2018;Kendra Wadsworth;;;6,8333333;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/14/2018;Oliver Minall;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/14/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/14/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/14/2018;Phyllis Thompson;Worked 8 hrs.;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/14/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/14/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/14/2018;Dawite Ewnetu;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/14/2018;Carrie Carignan;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/14/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/14/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/14/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/14/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/14/2018;Hung Ton;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/14/2018;Becky McCrory;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/14/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/14/2018;Ashley VanMeter;;;4,5;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/14/2018;Ashley VanMeter;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/14/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/14/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/15/2018;Abdul Wahab;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/15/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/15/2018;Severin Moffo;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/15/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/15/2018;Abdul Wahab;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/15/2018;Abdul Wahab;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/15/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/15/2018;Kendra Wadsworth;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/15/2018;Oliver Minall;;;9,75;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/15/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/15/2018;Phyllis Thompson;Worked 8 hrs at home.;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/15/2018;Grace Opara;worked 1 hr extra to make up time for Tuesday;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/15/2018;Ashley VanMeter;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/15/2018;Daniel Pham;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/15/2018;Christopher Harpley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/15/2018;Dawite Ewnetu;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/15/2018;Carrie Carignan;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/15/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/15/2018;Mike Gentry;;;6,5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/15/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/15/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/15/2018;Hung Ton;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/15/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/15/2018;Ashley VanMeter;;;3,25;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/15/2018;Ashley VanMeter;;;2,5;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/15/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/15/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/16/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/16/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/16/2018;Becky McCrory;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/16/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/16/2018;Kendra Wadsworth;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/16/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/16/2018;Oliver Minall;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/16/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/16/2018;Phyllis Thompson;Worked 6 hours.  2 hour school delay.;0,00  ;6;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/16/2018;Ashley VanMeter;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/16/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/16/2018;Dawite Ewnetu;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/16/2018;Christopher Harpley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/16/2018;Carrie Carignan;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/16/2018;Tor Manders;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/16/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/16/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/16/2018;James Henley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/16/2018;Becky McCrory;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/16/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/16/2018;Ashley VanMeter;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/16/2018;Severin Moffo;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/17/2018;Michael Timpson;DTIC Mobile add headers for other 3 tab bar controller screens.;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/19/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/19/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/19/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/19/2018;Becky McCrory;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/19/2018;Abdul Wahab;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/19/2018;Abdul Wahab;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/19/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/19/2018;Kendra Wadsworth;;;7,5;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/19/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/19/2018;Oliver Minall;;;9,25;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/19/2018;Phyllis Thompson;Worked 8 hiours.;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/19/2018;Grace Opara;8 hrs;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/19/2018;Nathan Brooks;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/19/2018;Ashley VanMeter;;;3,25;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/19/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/19/2018;Christopher Harpley;;;7;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/19/2018;Carrie Carignan;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/19/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/19/2018;Hung Ton;I am UI developer;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/19/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/19/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/19/2018;James Henley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/19/2018;Becky McCrory;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/19/2018;Ashley VanMeter;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/19/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/19/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/20/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/20/2018;Michael Timpson;Add remaining 3 tableviews to existing views.;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/20/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/20/2018;Becky McCrory;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/20/2018;Thinh Nguyen;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/20/2018;Abdul Wahab;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/20/2018;Michael Timpson;Code Review w/ JP (Gain knowledge of Angular);0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/20/2018;Abdul Wahab;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/20/2018;Aziz Ibrahim;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/20/2018;Kendra Wadsworth;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/20/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/20/2018;Oliver Minall;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/20/2018;Grace Opara;7 hrs;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/20/2018;Nathan Brooks;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/20/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/20/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/20/2018;Christopher Harpley;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/20/2018;Carrie Carignan;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/20/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/20/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/20/2018;Hung Ton;I am UI developer;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/20/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/20/2018;James Henley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/20/2018;Becky McCrory;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/20/2018;Michael Timpson;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/20/2018;Ashley VanMeter;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/20/2018;Ashley VanMeter;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/20/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/21/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/21/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/21/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/21/2018;Becky McCrory;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/21/2018;Thinh Nguyen;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/21/2018;Abdul Wahab;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/21/2018;Michael Timpson;Code Review w/ JP;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/21/2018;Abdul Wahab;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/21/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/21/2018;Kendra Wadsworth;;;7,5;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/21/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/21/2018;Nathan Brooks;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/21/2018;Christopher Harpley;;;9;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/21/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/21/2018;Carrie Carignan;;0,00  ;5;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/21/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/21/2018;Hung Ton;I am UI developer;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/21/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/21/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/21/2018;James Henley;;0,00  ;6;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/21/2018;Becky McCrory;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/21/2018;Michael Timpson;;0,00  ;6;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/21/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/22/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/23/2018;Eskendir Mulugeta;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/23/2018;Thinh Nguyen;;;10;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/23/2018;Kendra Wadsworth;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/23/2018;Aziz Ibrahim;;;6;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/23/2018;John Apodaca;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/23/2018;Grace Opara;9 hrs.  1 hr extra to make up for Tuesday's early departure.;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/23/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/23/2018;Joseph Wang;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/23/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/23/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/23/2018;Aseel Cortbawi;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/23/2018;Hung Ton;I am UI developer;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/23/2018;James Henley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/23/2018;Nathan Brooks;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/24/2018;Kendra Wadsworth;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/25/2018;Dawite Ewnetu;;0,00  ;0;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/26/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/26/2018;Christopher Harpley;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/26/2018;Severin Moffo;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/26/2018;Becky McCrory;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/26/2018;Thinh Nguyen;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/26/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/26/2018;Michael Timpson;Learning Hibernate/JPA from Sean to implement Review Form Tables;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/26/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/26/2018;Aziz Ibrahim;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/26/2018;Kendra Wadsworth;;;7;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/26/2018;Grace Opara;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/26/2018;Nathan Brooks;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/26/2018;Christopher Harpley;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/26/2018;Christopher Harpley;;0,00  ;0,5;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/26/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/26/2018;Carrie Carignan;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/26/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/26/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/26/2018;James Henley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/26/2018;Becky McCrory;;0,00  ;5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/26/2018;Michael Timpson;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/26/2018;Joseph Wang;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/26/2018;Eskendir Mulugeta;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/27/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/27/2018;Christopher Harpley;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/27/2018;Severin Moffo;;0,00  ;8,5;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/27/2018;Becky McCrory;;0,00  ;5;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/27/2018;Thinh Nguyen;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/27/2018;Kendra Wadsworth;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/27/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/27/2018;James Henley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Congressional Budget Queries (Software Development) - 4.01.AA.01.03.05.014.B.201
+11/27/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/27/2018;Aziz Ibrahim;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/27/2018;Kendra Wadsworth;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/27/2018;Oliver Minall;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/27/2018;Phyllis Thompson;Worked 8 hours;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/27/2018;Nathan Brooks;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/27/2018;Ashley VanMeter;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/27/2018;Joseph Wang;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/27/2018;Christopher Harpley;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/27/2018;Christopher Harpley;;0,00  ;6,5;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/27/2018;Dawite Ewnetu;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/27/2018;Carrie Carignan;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/27/2018;Aseel Cortbawi;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/27/2018;Mike Gentry;;;9,5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/27/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/27/2018;Becky McCrory;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/27/2018;Ashley VanMeter;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/27/2018;Michael Timpson;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/27/2018;Eskendir Mulugeta;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/28/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/28/2018;Michael Timpson;Dtic mobile;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/28/2018;Eskendir Mulugeta;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/28/2018;Becky McCrory;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/28/2018;Thinh Nguyen;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/28/2018;Kendra Wadsworth;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/28/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/28/2018;James Henley;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:Congressional Budget Queries (Software Development) - 4.01.AA.01.03.05.014.B.201
+11/28/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/28/2018;Aziz Ibrahim;;;10;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/28/2018;Oliver Minall;;;10;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/28/2018;Nathan Brooks;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/28/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/28/2018;Carrie Carignan;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/28/2018;Aseel Cortbawi;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/28/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/28/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/28/2018;James Henley;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/28/2018;Becky McCrory;;0,00  ;6;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/28/2018;Ashley VanMeter;;;3,5;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/28/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/28/2018;Ashley VanMeter;;;5,5;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/28/2018;Joseph Wang;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/28/2018;Severin Moffo;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/29/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/29/2018;Michael Timpson;Dtic mobile;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/29/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/29/2018;Becky McCrory;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/29/2018;Thinh Nguyen;;0,00  ;8,5;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/29/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/29/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/29/2018;Aziz Ibrahim;;;10;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/29/2018;Kendra Wadsworth;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/29/2018;Oliver Minall;;;1;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/29/2018;Phyllis Thompson;Worked 8 hours.;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/29/2018;Grace Opara;;;7;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/29/2018;Nathan Brooks;;0,00  ;12;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/29/2018;Ashley VanMeter;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (PM) - 4.05.AE.01.01.07.052.A.101
+11/29/2018;Joseph Wang;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II A (Software Development) - 4.05.AE.01.01.07.052.B.201
+11/29/2018;Christopher Harpley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/29/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/29/2018;Carrie Carignan;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/29/2018;Tor Manders;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/29/2018;Aseel Cortbawi;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/29/2018;Mike Gentry;;;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/29/2018;James Henley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/29/2018;Becky McCrory;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/29/2018;Michael Timpson;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/29/2018;Ashley VanMeter;;;5;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/29/2018;Becky McCrory;;0,00  ;3;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/29/2018;Eskendir Mulugeta;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/30/2018;Kendra Wadsworth;;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
+11/30/2018;Becky McCrory;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.10.AA.01.14.07.028.Y.A08
+11/30/2018;Severin Moffo;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/30/2018;Eskendir Mulugeta;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Pub Defense (Software Development)  - 4.01.AA.01.01.07.039.B.201
+11/30/2018;Becky McCrory;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:User Experience - 4.01.AA.01.01.07.045.B.601
+11/30/2018;Kendra Wadsworth;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/30/2018;Thinh Nguyen;;0,00  ;11;Yes;0,00  ;DTIC-ITSS-Powertek:New Search (Software Development)- 4.01.AA.01.02.02.061.B.20
+11/30/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:DoD Grants (Software Development) - 4.01.AA.01.02.05.029.B.201
+11/30/2018;Michael Timpson;Security CTO Portal;0,00  ;1;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/30/2018;Abdul Wahab;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:I&E - 4.01.AA.01.14.07.028.Y.A08
+11/30/2018;Aziz Ibrahim;;;8,5;Yes;0,00  ;DTIC-ITSS-Powertek:Dev Program Management - 4.01.AA.99.08.13.901.A.101
+11/30/2018;Kendra Wadsworth;;;3;Yes;0,00  ;DTIC-ITSS-Powertek:MySC (Software Development) - 4.03.AA.01.01.07.062.B201
+11/30/2018;Oliver Minall;;;2;Yes;0,00  ;DTIC-ITSS-Powertek:Network/Systems Admins - 4.03.AA.99.09.15.903.C.301
+11/30/2018;Grace Opara;;0,00  ;9;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/30/2018;Phyllis Thompson;Worked 8 hours;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:IA - 4.03.AA.99.09.18.907.C.304
+11/30/2018;Nathan Brooks;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Windows Infrastructure - 4.03.AA.99.10.14.902.C.301
+11/30/2018;Dawite Ewnetu;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/30/2018;Christopher Harpley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:App Security Enhancements (Software Development) - 4.13.AA.99.09.18.907.B.201
+11/30/2018;Carrie Carignan;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:Cybersecurity Surge - 4.13.AB.01.09.07.046.C.301
+11/30/2018;Mike Gentry;;;6,5;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/30/2018;Tor Manders;;0,00  ;10;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/30/2018;Aseel Cortbawi;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/30/2018;James Henley;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (Software Development) - 4.13.AC.01.02.07.058.B.201
+11/30/2018;Becky McCrory;;0,00  ;2;Yes;0,00  ;DTIC-ITSS-Powertek:Budget Tools Consolidation (User Experience) - 4.13.AC.01.02.07.058.B.601
+11/30/2018;Michael Timpson;;0,00  ;7;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/30/2018;Ashley VanMeter;;;4;Yes;0,00  ;DTIC-ITSS-Powertek:CTO Portal (Software Development) - 4.13.AD.01.02.07.059.B.201
+11/30/2018;Joseph Wang;;0,00  ;8;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/30/2018;Ashley VanMeter;;;4,75;Yes;0,00  ;DTIC-ITSS-Powertek:TCD II B (Software Development) - 4.13.AE.01.01.07.052.B.201
+11/30/2018;Abdul Wahab;;0,00  ;4;Yes;0,00  ;DTIC-ITSS-Powertek:DoDTechSpace (Software Development) - 4.01.AA.01.01.01.001.B.201
