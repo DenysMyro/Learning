@@ -1,8 +1,6 @@
 package com.company;
 
 
-import java.io.File;
-
 public class Main {
 
     public static void main(String[] args) throws Exception {
@@ -12,6 +10,7 @@ public class Main {
         String firstCSVfile = "C:\\IdeaProjects\\Learning\\TimeReportsComparator\\PowertekPriorMonthHoursReportNOV.csv";
         String report2 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets14.csv");
         String report3 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets2.csv");
+        String report4 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets18.csv");
 
         /* MOCK DATA*/
         TimeTrackingSys sys1 = new TimeTrackingSys("NAV");
@@ -37,11 +36,15 @@ public class Main {
         }
         sys1.addPerson(parser.getName(12), parser.gerProjectName(31), 255.2);
         System.out.println(sys1.compare(sys2));
+//        parser.printTable();
 
         secondParser.addSheet(report2);
-        secondParser.printTable();
-        System.out.println(secondParser.getName());
-        parser.printTable();
+        secondParser.addSheet(report3);
+        secondParser.addSheet(report4);
+
+        secondParser.printFinalReport();
+
+
     }
 }
 

@@ -65,12 +65,13 @@ public class PowertekParser {
     public String gerProjectName(int row) {
         /* we need to retrieve 18 digits code from the end of the string
         * do manual check with 20 digits to see if all codes are fit to standard
-        * found one exception 17 digits project 401AA010202061B20*/
+        * found one exception 17 digits project 401AA010202061B20
+        * UPD: 17 CODE is a mistake(last symbol missing) correct code is 401AA010202061B201*/
 
         String substr = reportTable[row][7].replace(" ", "").replace("-", "").replace(".", "");
         if (substr.length() > 20) {
-            if (substr.contains("401AA010202061B20"))
-                return "401AA010202061B20";
+            if (substr.contains("401AA010202061B20"))//handling mistake
+                return "401AA010202061B201";
             return substr.substring(substr.length() - 18);
         }
         return null;
