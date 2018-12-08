@@ -100,6 +100,10 @@ public class DTICparser {
     public String [] [] getFinalReport() {
         return finalReport;
     }
+    public int getFinTableLineCounter(){
+        return finTableLineCounter;
+    }
+
 }
 
 

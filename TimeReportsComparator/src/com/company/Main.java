@@ -7,13 +7,12 @@ public class Main {
         /*CSV file path*/
 
 //        File doc = new File("/home/denys/IdeaProjects/Learning/TimeReportsComparator/October.xls");
-        String firstCSVfile = "C:\\IdeaProjects\\Learning\\TimeReportsComparator\\PowertekPriorMonthHoursReportNOV.csv";
-        String report2 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets14.csv");
-        String report3 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets2.csv");
-        String report4 = ("C:\\IdeaProjects\\Learning\\TimeReportsComparator\\Sub DTIC NOV Timesheets18.csv");
+        String firstCSVfile = "C:\\Users\\Defto\\Desktop\\TimeReportsNOV\\PowertekPriorMonthHoursReportNOV.csv";
+        String report = ("C:\\Users\\Defto\\Desktop\\TimeReportsNOV\\Sub DTIC NOV Timesheets");
+
 
         /* MOCK DATA*/
-        TimeTrackingSys sys1 = new TimeTrackingSys("NAV");
+        TimeTrackingSys sys1 = new TimeTrackingSys("Quadrat");
 //        sys1.addPerson("Radko Roman", "ASI Android", 100.0);
 //        sys1.addPerson("Serg Martynenko", "DCBFC", 8.0);
 //        sys1.addPerson("Denka Myro", "Pacify", 40.0);
@@ -30,19 +29,24 @@ public class Main {
 
         PowertekParser parser = new PowertekParser(firstCSVfile, ";", 535, 8);
         DTICparser secondParser = new DTICparser();
+        //fill sys2 with parsed data
         for (int i = 1; i < parser.getLineCounter(); i++) { //i=1 cause 0 is table table
-            sys1.addPerson(parser.getName(i), parser.gerProjectName(i), parser.getHours(i));
             sys2.addPerson(parser.getName(i), parser.gerProjectName(i), parser.getHours(i));
         }
-        sys1.addPerson(parser.getName(12), parser.gerProjectName(31), 255.2);
-        System.out.println(sys1.compare(sys2));
-//        parser.printTable();
 
-        secondParser.addSheet(report2);
-        secondParser.addSheet(report3);
-        secondParser.addSheet(report4);
+        //read all files for sys1
+        for (int i=1;i<57;i++){
+            String path = report+i+".csv";
+            secondParser.addSheet(path);
+        }
+        //transfer parsed data to sys1
+        for (int i=0; i<secondParser.getFinTableLineCounter(); i++){
+            sys1.addPerson(secondParser.getFinalReport()[i][0],secondParser.getFinalReport()[i][1],Double.parseDouble(secondParser.getFinalReport()[i][2]));
+        }
 
-        secondParser.printFinalReport();
+        //Compare reports
+        System.out.println(sys2.compare(sys1));
+
 
 
     }
