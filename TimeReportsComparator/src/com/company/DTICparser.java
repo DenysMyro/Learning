@@ -1,13 +1,8 @@
 package com.company;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
-public class PowertekParser {
-
-
+public class DTICparser {
     private String csvFile;
     private BufferedReader br = null;
     private String line = "";
@@ -16,7 +11,7 @@ public class PowertekParser {
     private int lineCounter = 0;
 
 
-    public PowertekParser(String csvFilePath, String cvsSplitBy, int maxRows, int maxColumns) {
+    public DTICparser(String csvFilePath, String cvsSplitBy, int maxRows, int maxColumns) {
         this.csvFile = csvFilePath;
         this.cvsSplitBy = cvsSplitBy;
         //create report table
@@ -57,8 +52,6 @@ public class PowertekParser {
     }
 
     public double getHours(int row) {
-        if (isBillable(row))
-            return Double.parseDouble(reportTable[row][4].replace(",", "."));//replace done to avoid java.lang.NumberFormatException: For input string: "2,5"
         return 0.0;
     }
 
@@ -67,20 +60,11 @@ public class PowertekParser {
         * do manual check with 20 digits to see if all codes are fit to standard
         * found one exception 17 digits project 401AA010202061B20*/
 
-        String substr = reportTable[row][7].replace(" ", "").replace("-", "").replace(".", "");
-        if (substr.length() > 20) {
-            if (substr.contains("401AA010202061B20"))
-                return "401AA010202061B20";
-            return substr.substring(substr.length() - 18);
-        }
         return null;
     }
 
-    public int getLineCounter() {
-        return lineCounter;
-    }
 
-    public boolean isBillable(int row) {
-        return reportTable[row][5].toLowerCase().contains("yes");
-    }
+
 }
+
+

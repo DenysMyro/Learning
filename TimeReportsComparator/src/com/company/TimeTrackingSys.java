@@ -53,4 +53,12 @@ public class TimeTrackingSys {
         return employeeTime.get(empName);
     }
 
+    @Override
+    public String toString() {
+        //todo :return list of system entries (name, projects, time)
+        return "TimeTrackingSys{" +
+                "name='" + name + '\'' +
+                ", employeeTime=" + employeeTime +
+                '}';
+    }
 }
