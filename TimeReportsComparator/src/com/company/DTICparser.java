@@ -3,19 +3,16 @@ package com.company;
 import java.io.*;
 
 public class DTICparser {
-    private String csvFile;
-    private BufferedReader br = null;
-    private String line = "";
-    private String cvsSplitBy;
-    private String[][] reportTable;
-    private int lineCounter = 0;
 
 
-    public DTICparser(String csvFilePath, String cvsSplitBy, int maxRows, int maxColumns) {
-        this.csvFile = csvFilePath;
-        this.cvsSplitBy = cvsSplitBy;
-        //create report table
-        reportTable = new String[maxRows][maxColumns];//needs to be improved
+    public static void main(String[] args) {
+
+        String csvFile = "C:\\IdeaProjects\\Learning\\TimeReportsComparator\\October.csv";
+        BufferedReader br = null;
+        String line = "";
+        String cvsSplitBy = ",";
+        String[][] reportTable = new String[8][30];
+        int lineCounter = 0;
 
         //Read file and put it to 2d arr
         try {
@@ -35,20 +32,22 @@ public class DTICparser {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
 
-
-    public void printTable() {
         for (int i = 0; i < reportTable.length; i++) {
             for (int j = 0; j < reportTable[i].length; j++) {
-                System.out.print("|" + reportTable[i][j]);
+                System.out.print(" " + reportTable[i][j]);
             }
             System.out.println();
         }
     }
 
+
+    public void printTable() {
+
+    }
+
     public String getName(int row) {
-        return reportTable[row][1];
+        return null;//reportTable[row][1];
     }
 
     public double getHours(int row) {
@@ -62,7 +61,6 @@ public class DTICparser {
 
         return null;
     }
-
 
 
 }
