@@ -12,7 +12,7 @@ public class Main {
 
 
         /* MOCK DATA*/
-        TimeTrackingSys sys1 = new TimeTrackingSys("Quadrat");
+        TimeTrackingSys sys1 = new TimeTrackingSys("NAV");
 //        sys1.addPerson("Radko Roman", "ASI Android", 100.0);
 //        sys1.addPerson("Serg Martynenko", "DCBFC", 8.0);
 //        sys1.addPerson("Denka Myro", "Pacify", 40.0);
@@ -45,7 +45,7 @@ public class Main {
         }
 
         //Compare reports
-        System.out.println(sys2.compare(sys1));
+        System.out.println(sys1.compare(sys2));
 
 
 
