@@ -14,10 +14,10 @@ public class SpentTime {
         projectToTime.put(project, getTime(project) + time);
     }
 
-    public List<String> findMissmatchProjects (SpentTime other) {
+    public List<String> findMissmatchProjects(SpentTime other) {
         List<String> missMatch = new ArrayList<>();
         Set<String> allProjects = new HashSet<>();
-                allProjects.addAll(projectToTime.keySet());
+        allProjects.addAll(projectToTime.keySet());
         allProjects.addAll(other.projectToTime.keySet());
         for (String project : allProjects) {
             double myTime = getTime(project);
@@ -34,6 +34,14 @@ public class SpentTime {
             return projectToTime.get(project);
         }
         return 0;
+    }
+
+    public double getTotalTime() {
+        double sum = 0;
+        for (double time : projectToTime.values()) {
+            sum += time;
+        }
+        return sum;
     }
 
     @Override

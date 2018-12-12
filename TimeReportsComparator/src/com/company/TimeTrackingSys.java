@@ -53,9 +53,17 @@ public class TimeTrackingSys {
         return employeeTime.get(empName);
     }
 
-    public void printPersonTime (String name) {
-        System.out.print(name+": ");
+    public void printPersonTime(String name) {
+        System.out.print(name + ": ");
         System.out.println(getSpentTime(name));
+    }
+
+    public double getTotalTime() {
+        double sum = 0.0;
+        for (SpentTime time : employeeTime.values()) {
+            sum += time.getTotalTime();
+        }
+        return sum;
     }
 
 

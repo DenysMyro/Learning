@@ -47,6 +47,8 @@ public class Main {
         sys1.printPersonTime(s);
         sys2.printPersonTime(s);
 
+        System.out.println("TOTAL TIME SYS2: "+sys2.getTotalTime());
+
 
 
 
