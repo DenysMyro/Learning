@@ -53,6 +53,12 @@ public class TimeTrackingSys {
         return employeeTime.get(empName);
     }
 
+    public void printPersonTime (String name) {
+        System.out.print(name+": ");
+        System.out.println(getSpentTime(name));
+    }
+
+
     @Override
     public String toString() {
         //todo :return list of system entries (name, projects, time)

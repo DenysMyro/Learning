@@ -6,26 +6,21 @@ public class Main {
     public static void main(String[] args) throws Exception {
         /*CSV file path*/
 
-//        File doc = new File("/home/denys/IdeaProjects/Learning/TimeReportsComparator/October.xls");
-        String firstCSVfile = "C:\\Users\\Defto\\Desktop\\TimeReportsNOV\\PowertekPriorMonthHoursReportNOV.csv";
-        String report = ("C:\\Users\\Defto\\Desktop\\TimeReportsNOV\\Sub DTIC NOV Timesheets");
+        String report = "/home/denys/Desktop/TimeReportsNOV/Sub DTIC NOV Timesheets";
+        String firstCSVfile = "/home/denys/Desktop/TimeReportsNOV/PowertekPriorMonthHoursReportNOV.csv";
 
+//        String firstCSVfile = "C:\\Users\\Defto\\Desktop\\TimeReportsNOV\\PowertekPriorMonthHoursReportNOV.csv";
+//        String report = ("C:\\Users\\Defto\\Desktop\\TimeReportsNOV\\Sub DTIC NOV Timesheets");
 
-        /* MOCK DATA*/
         TimeTrackingSys sys1 = new TimeTrackingSys("NAV");
-//        sys1.addPerson("Radko Roman", "ASI Android", 100.0);
-//        sys1.addPerson("Serg Martynenko", "DCBFC", 8.0);
-//        sys1.addPerson("Denka Myro", "Pacify", 40.0);
-//        sys1.addPerson("Denka Myro", "Medela", 20.0);
-//        sys1.addPerson("Denka Myro", "Medela", 20.0);
-//        sys1.addPerson("Denkas Myro", "Medela", 20.0);
-        TimeTrackingSys sys2 = new TimeTrackingSys("QuickBooks");
-//        sys2.addPerson("Radko Roman", "ASI Android", 150.0);
-//        sys2.addPerson("Radko Roman", "LoompingTheDay", 1.0);
-//        sys2.addPerson("Serg Martynenko", "DCBFC", 8.0);
-//        sys2.addPerson("Serg Martynenko", "DCBFC", 8.0);
-//        sys2.addPerson("Denka Myro", "Pacify", 40.0);
-//        sys2.addPerson("Denka Myro", "Medela", 20.0);
+        TimeTrackingSys sys2 = new TimeTrackingSys("PowertekQuickBooks");
+        /* MOCK DATA*/
+//        sys1.addPerson("Denka Myro", "Project1", 40.0);
+//        sys1.addPerson("Denka Myro", "Project2", 20.0);
+//        sys1.addPerson("Denka Myro", "Project1", 20.0);
+//        sys1.addPerson("Denkas Myro", "Project1", 20.0);
+//        sys2.addPerson("Denka Myro", "Project2", 40.0);
+//        sys2.addPerson("Denka Myro", "Project1", 20.0);
 
         PowertekParser parser = new PowertekParser(firstCSVfile, ";", 535, 8);
         DTICparser secondParser = new DTICparser();
@@ -46,6 +41,13 @@ public class Main {
 
         //Compare reports
         System.out.println(sys1.compare(sys2));
+
+        String s = "asdasd asdsd";
+
+        sys1.printPersonTime(s);
+        sys2.printPersonTime(s);
+
+
 
 
 
